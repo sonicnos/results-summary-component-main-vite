@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Card from "./components/card";
+import Card from "./components/Card";
 
 function App() {
   const [data, setData] = useState({
