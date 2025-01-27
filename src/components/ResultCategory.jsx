@@ -2,7 +2,7 @@ const ResultCategory = ({ reaction, memory, verbal, visual, icon }) => {
   return (
     <>
       {reaction ? (
-        <p className="flex justify-between w-[280px] h-14 items-center bg-red-50 rounded-md px-5 font-semibold">
+        <p className="flex justify-between sm:w-[280px] h-14 items-center bg-red-50 rounded-md px-5 font-semibold">
           <div className="flex gap-3 items-center text-red-500">
             <img src={icon} alt="icon" className="h-5" />
             Reaction
@@ -15,7 +15,7 @@ const ResultCategory = ({ reaction, memory, verbal, visual, icon }) => {
         ""
       )}
       {memory ? (
-        <p className="flex justify-between w-[280px] h-14 items-center bg-yellow-50 rounded-md px-5 font-semibold">
+        <p className="flex justify-between sm:w-[280px] h-14 items-center bg-yellow-50 rounded-md px-5 font-semibold">
           <div className="flex gap-3 items-center text-yellow-500">
             <img src={icon} alt="icon" />
             Memory
@@ -28,7 +28,7 @@ const ResultCategory = ({ reaction, memory, verbal, visual, icon }) => {
         ""
       )}
       {verbal ? (
-        <p className="flex justify-between w-[280px] h-14 items-center bg-green-50 rounded-md px-5 font-semibold">
+        <p className="flex justify-between sm:w-[280px] h-14 items-center bg-green-50 rounded-md px-5 font-semibold">
           <div className="flex gap-3 items-center text-green-500">
             <img src={icon} alt="icon" />
             Verbal
@@ -41,7 +41,7 @@ const ResultCategory = ({ reaction, memory, verbal, visual, icon }) => {
         ""
       )}
       {visual ? (
-        <p className="flex justify-between w-[280px] h-14 items-center bg-blue-50 rounded-md px-5 font-semibold">
+        <p className="flex justify-between sm:w-[280px] h-14 items-center bg-blue-50 rounded-md px-5 font-semibold">
           <div className="flex gap-3 items-center text-blue-800">
             <img src={icon} alt="icon" />
             Visual

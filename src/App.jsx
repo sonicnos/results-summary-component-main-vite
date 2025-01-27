@@ -11,9 +11,9 @@ function App() {
   });
 
   return (
-    <div className="h-screen flex items-center justify-center bg-[#ecf2ff]">
+    <div className="h-screen flex sm:items-center sm:justify-center  bg-[#ecf2ff]">
       <Card
-        className="flex h-[32.5rem] w-[46rem] shadow-2xl rounded-4xl bg-white"
+        className="flex sm:h-[32.5rem] sm:w-[46rem] sm:shadow-2xl sm:rounded-4xl bg-white flex-col sm:flex-row w-full "
         reaction={data.reaction}
         memory={data.memory}
         verbal={data.verbal}
